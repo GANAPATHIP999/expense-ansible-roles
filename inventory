@@ -1,0 +1,8 @@
+[db]
+db.aws-9s.shop
+
+[backend]
+backend.aws-9s.shop
+
+[frontend]
+aws-9s.shop
