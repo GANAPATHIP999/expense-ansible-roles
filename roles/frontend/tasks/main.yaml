@@ -10,9 +10,9 @@
     enabled: yes
 
 - name: run app pre-requisites
-    ansible.builtin.import_role:
-      name: common
-      tasks_from: app-pre-req
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app-pre-req
 
 - name: copy backend conf
   ansible.builtin.template:
@@ -26,4 +26,4 @@
 #   ansible.builtin.service:
 #     name: nginx
 #     state: restarted
-      
+  
